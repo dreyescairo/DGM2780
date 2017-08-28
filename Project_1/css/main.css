@@ -4,10 +4,32 @@
    Author's custom styles
    ========================================================================== */
 
+   body{
+    padding-top: 55px;
+    min-width: 600px;
+  }
+
 div.bannerContainer h1{
     position: absolute;
     z-index: 1000;
     color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 7em;
+    left: .5em;
+}
+
+div.bannerContainer h1.firstH1{
+top: 100px;
+}
+
+div.bannerContainer h1.secondH1{
+    top: 260px;
+}
+
+div.bannerContainer h1.thirdH1{
+    top: 420px;
 }
 
 
