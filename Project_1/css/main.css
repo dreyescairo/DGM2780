@@ -4,10 +4,14 @@
    Author's custom styles
    ========================================================================== */
 
+
+
    body{
     padding-top: 55px;
     min-width: 600px;
+    font-family: 'Karla', sans-serif;
   }
+
 
 div.bannerContainer h1{
     position: absolute;
@@ -16,7 +20,7 @@ div.bannerContainer h1{
     margin: 0;
     padding: 0;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 7em;
+    font-size: 3em;
     left: .5em;
 }
 
@@ -25,15 +29,92 @@ top: 100px;
 }
 
 div.bannerContainer h1.secondH1{
-    top: 260px;
+    top: 160px;
 }
 
 div.bannerContainer h1.thirdH1{
-    top: 420px;
+    top: 220px;
+}
+
+.iconLogo{
+    width: 25px;
+}
+
+.contentRow{
+    padding-top: 2em;
+}
+
+/* .myCarousel{
+    padding: 2em;
+} */
+
+.backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.freeCaption{
+    margin: auto;
+    padding: 0;
+    font-style: italic;
+    color: grey;
 }
 
 
 
+/* large screens */
+@media only screen and (min-width: 992px) {
+    div.bannerContainer h1{
+        position: absolute;
+        z-index: 1000;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 7em;
+        left: .5em;
+    }
+    
+    div.bannerContainer h1.firstH1{
+    top: 100px;
+    }
+    
+    div.bannerContainer h1.secondH1{
+        top: 260px;
+    }
+    
+    div.bannerContainer h1.thirdH1{
+        top: 420px;
+    }
+}
+
+/* medium screens */
+@media only screen and (min-width: 768px) {
+
+    div.bannerContainer h1{
+        position: absolute;
+        z-index: 1000;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 5em;
+        left: .5em;
+    }
+    
+    div.bannerContainer h1.firstH1{
+    top: 100px;
+    }
+    
+    div.bannerContainer h1.secondH1{
+        top: 200px;
+    }
+    
+    div.bannerContainer h1.thirdH1{
+        top: 300px;
+    }
+
+}
 
 
 
