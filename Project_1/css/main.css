@@ -25,6 +25,9 @@ nav{
     top: 400px;
 }
 
+/* .headlines{
+    padding-left: 1em;
+} */
 
 div.bannerContainer h1{
     position: absolute;
@@ -38,15 +41,15 @@ div.bannerContainer h1{
 }
 
 div.bannerContainer h1.firstH1{
-top: 100px;
+top: 75px;
 }
 
 div.bannerContainer h1.secondH1{
-    top: 160px;
+    top: 125px;
 }
 
 div.bannerContainer h1.thirdH1{
-    top: 220px;
+    top: 175px;
 }
 
 .iconLogo{
