@@ -8,9 +8,22 @@
 
    body{
     padding-top: 55px;
-    min-width: 600px;
+    /* min-width: 600px; */
     font-family: 'Karla', sans-serif;
   }
+
+  .affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+nav{
+    top: 400px;
+}
 
 
 div.bannerContainer h1{
