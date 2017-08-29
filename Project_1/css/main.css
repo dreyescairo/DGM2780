@@ -7,23 +7,23 @@
 
 
    body{
-    padding-top: 55px;
+    /* padding-top: 55px; */
     /* min-width: 600px; */
     font-family: 'Karla', sans-serif;
   }
 
+
   .affix {
+    position: fixed;
     top: 0;
-    width: 100%;
-}
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 
-.affix + .container-fluid {
-    padding-top: 70px;
-}
-
-nav{
+/* nav{
     top: 400px;
-}
+} */
 
 /* .headlines{
     padding-left: 1em;
@@ -65,7 +65,7 @@ div.bannerContainer h1.thirdH1{
 } */
 
 .backdrop{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     
 }
 
@@ -133,9 +133,7 @@ div.bannerContainer h1.thirdH1{
 }
 
 
-
-
-
+  
 
 
 
