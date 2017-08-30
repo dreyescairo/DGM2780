@@ -58,6 +58,4 @@ $('.carousel').carousel({
 })
 
 
-$('#collapseOne').collapse({
-    show
-})
+$('#collapseOne').collapse('show');
