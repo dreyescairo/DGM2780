@@ -1,0 +1,13 @@
+// Variables
+
+$font-stack: 'Muli', sans-serif;
+
+$h1Color: #585858;
+$footerBackgroundColor: rgba(4, 56, 28, 0.52);
+$singleContainerPaddingValue: 20px;
+$singleFooterMarginValue: (-$singleContainerPaddingValue);//we want the footer to span teh whole container so if the container has
+                                                         //padding, we want the footer to have the negative margin of that padding.
+$navAnchorColor: #1A1A1A;
+$footerAnchorColor: white;                                                 
+
+$containerBorderRadius: 10px;

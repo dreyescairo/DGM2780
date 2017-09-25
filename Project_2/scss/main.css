@@ -1,0 +1,105 @@
+/* line 3, partials/_header.scss */
+#header {
+  padding-bottom: 20px;
+  bottom: 0; }
+  /* line 10, partials/_header.scss */
+  #header nav ul {
+    float: right;
+    padding-top: 15px; }
+  /* line 15, partials/_header.scss */
+  #header nav li {
+    float: left;
+    list-style: none; }
+  /* line 20, partials/_header.scss */
+  #header nav a, #header nav a:visited, #header nav a:hover, #header nav a:active {
+    color: #1A1A1A;
+    text-decoration: none; }
+  /* line 28, partials/_header.scss */
+  #header h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #585858; }
+
+/* line 2, partials/_footer.scss */
+footer {
+  clear: both;
+  text-align: center;
+  background-color: rgba(4, 56, 28, 0.52);
+  color: #fff;
+  margin: 0 -20px 0 -20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+  /* line 12, partials/_footer.scss */
+  footer ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: inline-block; }
+  /* line 20, partials/_footer.scss */
+  footer li {
+    float: left;
+    list-style: none; }
+  /* line 25, partials/_footer.scss */
+  footer a, footer a:visited, footer a:hover, footer a:active {
+    color: white;
+    text-decoration: none; }
+
+/* line 2, pages/_home-page.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 6, pages/_home-page.scss */
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #4d4d4d;
+  background-image: url("../img/woodPattern.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ }
+
+/* line 15, pages/_home-page.scss */
+.container {
+  max-width: 980px;
+  min-width: 300px;
+  padding: 20px 20px 0 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px #000; }
+
+/* line 25, pages/_home-page.scss */
+.banner img {
+  width: 100%;
+  border: 1px solid #585858; }
+
+/* line 32, pages/_home-page.scss */
+#home-page h1 {
+  color: #585858;
+  padding: 10px 0 5px 0;
+  font-weight: 700;
+  font-size: 40px; }
+/* line 39, pages/_home-page.scss */
+#home-page p {
+  padding-top: 15px; }
+/* line 43, pages/_home-page.scss */
+#home-page .thumbnails {
+  margin: 0 auto; }
+/* line 47, pages/_home-page.scss */
+#home-page .imgBox {
+  padding: 17px 1.7%;
+  float: left;
+  margin: 0 auto; }
+/* line 54, pages/_home-page.scss */
+#home-page .imgBox img {
+  border: 1px solid #585858; }
+/* line 59, pages/_home-page.scss */
+#home-page .col-2 {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  margin: 0 auto; }
+/* line 68, pages/_home-page.scss */
+#home-page .clearfix {
+  clear: both; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,72 @@
+// Home Page SCSS
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: $font-stack;
+	background-color: #4d4d4d;
+	background-image: url("../img/woodPattern.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+
+.container{
+	max-width: 980px;
+	min-width: 300px;
+	padding: $singleContainerPaddingValue $singleContainerPaddingValue 0 $singleContainerPaddingValue;
+	margin: 50px auto;
+	border-radius: $containerBorderRadius;
+	background-color: rgba( 255, 255, 255, .8);
+	box-shadow: 0 0 5px #000;
+}
+
+.banner img{
+	width: 100%;
+	border: 1px solid $h1Color;
+}
+
+#home-page {
+
+	h1 {
+		color: $h1Color;
+		padding: 10px 0 5px 0;
+		font-weight: 700;
+		font-size: 40px;
+	}
+
+	p{
+		padding-top: 15px;
+	}
+
+	.thumbnails{
+		margin: 0 auto;
+	}
+
+.imgBox{
+	padding: 17px 1.7%;
+	float: left;
+	margin: 0 auto;
+	
+}
+
+.imgBox img{
+	border: 1px solid $h1Color;
+	
+}
+
+.col-2{
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px; 
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+.clearfix{
+	clear: both;
+}
+
+}// #home-page
