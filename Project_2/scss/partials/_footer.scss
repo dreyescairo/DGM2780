@@ -1,32 +1,34 @@
 //footer scss
-footer{
+footer {
     clear: both;
-   
     text-align: center;
     background-color: $footerBackgroundColor;
     color: #fff;
     margin: 0 $singleFooterMarginValue 0 $singleFooterMarginValue;
     border-bottom-right-radius: $containerBorderRadius;
     border-bottom-left-radius: $containerBorderRadius;
-  
-ul{
-   
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto; 
-    display:inline-block;
-}
+    ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    li {
+        float: left;
+        list-style: none;
+    }
+    a,
+    a:visited,
+    a:active {
+        color: $footerAnchorColor;
+        text-decoration: none;
+    }
 
-li {
-    float: left;
-    list-style: none;
-}
-
-a, a:visited, a:hover, a:active{
-    color:$footerAnchorColor;
-    text-decoration: none;
-
-    
-    
-}
+    a:hover{
+            color: $footerAnchorHoverColor;
+    }
+    p{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
 }

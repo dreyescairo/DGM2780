@@ -7,20 +7,19 @@ body{
 	font-family: $font-stack;
 	background-color: #4d4d4d;
 	background-image: url("../img/woodPattern.png");
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+
 
 
 
 .container{
-	max-width: 980px;
-	min-width: 300px;
+	max-width: $containerWidth;
+	min-width: $containerHeight;
 	padding: $singleContainerPaddingValue $singleContainerPaddingValue 0 $singleContainerPaddingValue;
 	margin: 50px auto;
-	border-radius: $containerBorderRadius;
+	@include border-radius-all($containerBorderRadius);
 	background-color: rgba( 255, 255, 255, .8);
 	box-shadow: 0 0 5px #000;
-}
+
 
 .banner img{
 	width: 100%;
@@ -30,10 +29,15 @@ body{
 #home-page {
 
 	h1 {
-		color: $h1Color;
-		padding: 10px 0 5px 0;
-		font-weight: 700;
-		font-size: 40px;
+		// color: $h1Color;
+		// padding: 10px 0 5px 0;
+		// font-weight: 700;
+		// font-size: 40px;
+		@include h-style($h1Color, $h1Padding, $h1fontWeight, $h1FontSize);
+	}
+
+	h2{
+		@extend h1;
 	}
 
 	p{
@@ -70,3 +74,5 @@ body{
 }
 
 }// #home-page
+}//.container
+}//body

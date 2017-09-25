@@ -9,7 +9,7 @@
 	
 		ul{
 			float: right;
-			padding-top: 15px;
+			padding-top: 20px;
 		}
 
     	li {
@@ -17,21 +17,27 @@
 			list-style: none;
 		}
 		
-		a, a:visited, a:hover, a:active{
+		a, a:hover, a:active{
 			color: $navAnchorColor;
 			text-decoration: none;
 		}
 
+		a:visited{
+			@extend a;
+		}
+
+		a:hover{
+			color: $navAnchorHoverColor;
+		}
 	
 	}
 
 	h1{
 		
-		font-weight: 700;
-		font-size: 40px;
-		color: $h1Color;
-		
+		@include h-style($h1Color, $h1Padding, $h1fontWeight, $h1FontSize);
+		border-bottom: 4px solid $h1Color;
 	}
+	
 
 
 }// #header

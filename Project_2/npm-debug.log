@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'http://sass-lang.com/install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData http://sass-lang.com/install
+8 silly fetchOtherPackageData http://sass-lang.com/install
+9 silly cache add args [ 'http://sass-lang.com/install', null ]
+10 verbose cache add spec http://sass-lang.com/install
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'http://sass-lang.com/install',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'http://sass-lang.com/install',
+11 silly cache add   spec: 'http://sass-lang.com/install',
+11 silly cache add   type: 'remote' }
+12 silly mapToRegistry name http://sass-lang.com/install
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'http://sass-lang.com/install',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   escapedName: null,
+15 silly mapToRegistry   name: null,
+15 silly mapToRegistry   rawSpec: 'http://sass-lang.com/install',
+15 silly mapToRegistry   spec: 'http://sass-lang.com/install',
+15 silly mapToRegistry   type: 'remote' }
+16 silly mapToRegistry uri http://sass-lang.com/install
+17 verbose addRemoteTarball http://sass-lang.com/install not in flight; adding
+18 verbose addRemoteTarball [ 'http://sass-lang.com/install', null ]
+19 info retry fetch attempt 1 at 7:52:11 PM
+20 info attempt registry request try #1 at 7:52:11 PM
+21 http fetch GET http://sass-lang.com/install
+22 verbose request id 00a953ccdd4c35b4
+23 http fetch 200 http://sass-lang.com/install
+24 silly fetchAndShaCheck shasum 45c7ea25ab26e8e33180e9b943a8e70b2b767908
+25 verbose addTmpTarball C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\sass-lang.com\install not in flight; adding
+26 verbose correctMkdir C:\Users\dreye\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 verbose addTmpTarball validating metadata from C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\sass-lang.com\install
+28 verbose tar unpack C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\sass-lang.com\install
+29 verbose tar unpacking to C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc
+30 silly gentlyRm C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc is being purged
+31 verbose gentlyRm don't care about contents; nuking C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc
+32 silly gunzTarPerm modes [ '777', '666' ]
+33 error not a package C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\sass-lang.com\install
+34 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc\package.json'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData  error for http://sass-lang.com/install { Error: ENOENT: no such file or directory, open 'C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc\package.json'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData   errno: -4058,
+34 silly fetchPackageMetaData   code: 'ENOENT',
+34 silly fetchPackageMetaData   syscall: 'open',
+34 silly fetchPackageMetaData   path: 'C:\\Users\\dreye\\AppData\\Local\\Temp\\npm-29208-a8fceaca\\unpack-4f6f3dfc\\package.json' }
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc\package.json'
+39 verbose stack     at Error (native)
+40 verbose cwd C:\Users\dreye\OneDrive\Documents\DGM2780\Project_2
+41 error Windows_NT 10.0.15063
+42 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "http://sass-lang.com/install"
+43 error node v6.11.2
+44 error npm  v3.10.10
+45 error path C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc\package.json
+46 error code ENOENT
+47 error errno -4058
+48 error syscall open
+49 error enoent ENOENT: no such file or directory, open 'C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc\package.json'
+50 error enoent ENOENT: no such file or directory, open 'C:\Users\dreye\AppData\Local\Temp\npm-29208-a8fceaca\unpack-4f6f3dfc\package.json'
+50 error enoent This is most likely not a problem with npm itself
+50 error enoent and is related to npm not being able to find a file.
+51 verbose exit [ -4058, true ]

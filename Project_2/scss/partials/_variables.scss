@@ -2,12 +2,44 @@
 
 $font-stack: 'Muli', sans-serif;
 
-$h1Color: #585858;
-$footerBackgroundColor: rgba(4, 56, 28, 0.52);
+//container
+$containerWidth: 980px;
+$containerHeight: $containerWidth / 2;
 $singleContainerPaddingValue: 20px;
-$singleFooterMarginValue: (-$singleContainerPaddingValue);//we want the footer to span teh whole container so if the container has
-                                                         //padding, we want the footer to have the negative margin of that padding.
+$containerBorderRadius: 10px;
+
+//nav
 $navAnchorColor: #1A1A1A;
+$navAnchorHoverColor: rgba(4, 56, 28, 0.52);
+
+//h1 variables
+$h1Color: #585858;
+$h1Padding: 10px 0 5px 0;
+$h1fontWeight: 700;
+$h1FontSize: 40px;
+
+
+//footer
+$footerBackgroundColor: rgba(4, 56, 28, 0.52);
+//we want the footer to span teh whole container so if the container has
+//padding, we want the footer to have the negative margin of that padding.
+$singleFooterMarginValue: (-$singleContainerPaddingValue);
+$footerAnchorHoverColor: rgba(4, 56, 28, 1);
 $footerAnchorColor: white;                                                 
 
-$containerBorderRadius: 10px;
+
+
+@mixin border-radius-all($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+//this mixin should reflect the basic style needs of a header
+@mixin h-style($fontColor, $padding, $fontWeight, $fontSize){
+    color: $fontColor;
+    padding: nth($padding, 1) nth($padding, 2) nth($padding, 3) nth($padding, 4);
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+}

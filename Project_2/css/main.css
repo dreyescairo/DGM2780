@@ -1,1 +1,122 @@
-#header nav{float:right}#header nav li{float:left}#home-page h1{color:red}#home-page h1{color:blue}
+/* line 3, partials/_header.scss */
+#header {
+  padding-bottom: 20px;
+  bottom: 0; }
+  /* line 10, partials/_header.scss */
+  #header nav ul {
+    float: right;
+    padding-top: 20px; }
+  /* line 15, partials/_header.scss */
+  #header nav li {
+    float: left;
+    list-style: none; }
+  /* line 20, partials/_header.scss */
+  #header nav a, #header nav a:visited, #header nav a:hover, #header nav a:active {
+    color: #1A1A1A;
+    text-decoration: none; }
+  /* line 29, partials/_header.scss */
+  #header nav a:hover {
+    color: rgba(4, 56, 28, 0.52); }
+  /* line 35, partials/_header.scss */
+  #header h1, #header body .container #home-page h2, body .container #home-page #header h2 {
+    color: #585858;
+    padding: 10px 0 5px 0;
+    font-weight: 700;
+    font-size: 40px;
+    border-bottom: 4px solid #585858; }
+
+/* line 2, partials/_footer.scss */
+footer {
+  clear: both;
+  text-align: center;
+  background-color: rgba(4, 56, 28, 0.52);
+  color: #fff;
+  margin: 0 -20px 0 -20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+  /* line 10, partials/_footer.scss */
+  footer ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: inline-block; }
+  /* line 16, partials/_footer.scss */
+  footer li {
+    float: left;
+    list-style: none; }
+  /* line 20, partials/_footer.scss */
+  footer a, footer #header nav a:visited, #header nav footer a:visited,
+  footer a:visited,
+  footer #header nav a:visited,
+  #header nav footer a:visited,
+  footer a:active,
+  footer #header nav a:active:visited,
+  #header nav footer a:active:visited {
+    color: white;
+    text-decoration: none; }
+  /* line 27, partials/_footer.scss */
+  footer a:hover, footer #header nav a:hover:visited, #header nav footer a:hover:visited {
+    color: #04381c; }
+  /* line 30, partials/_footer.scss */
+  footer p {
+    font-size: 10px;
+    padding-bottom: 5px; }
+
+/* line 2, pages/_home-page.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 6, pages/_home-page.scss */
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #4d4d4d;
+  background-image: url("../img/woodPattern.png"); }
+  /* line 14, pages/_home-page.scss */
+  body .container {
+    max-width: 980px;
+    min-width: 490px;
+    padding: 20px 20px 0 20px;
+    margin: 50px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #000; }
+    /* line 24, pages/_home-page.scss */
+    body .container .banner img {
+      width: 100%;
+      border: 1px solid #585858; }
+    /* line 31, pages/_home-page.scss */
+    body .container #home-page h1, body .container #home-page h2 {
+      color: #585858;
+      padding: 10px 0 5px 0;
+      font-weight: 700;
+      font-size: 40px; }
+    /* line 43, pages/_home-page.scss */
+    body .container #home-page p {
+      padding-top: 15px; }
+    /* line 47, pages/_home-page.scss */
+    body .container #home-page .thumbnails {
+      margin: 0 auto; }
+    /* line 51, pages/_home-page.scss */
+    body .container #home-page .imgBox {
+      padding: 17px 1.7%;
+      float: left;
+      margin: 0 auto; }
+    /* line 58, pages/_home-page.scss */
+    body .container #home-page .imgBox img {
+      border: 1px solid #585858; }
+    /* line 63, pages/_home-page.scss */
+    body .container #home-page .col-2 {
+      float: left;
+      width: 50%;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 50px;
+      margin: 0 auto; }
+    /* line 72, pages/_home-page.scss */
+    body .container #home-page .clearfix {
+      clear: both; }
+
+/*# sourceMappingURL=main.css.map */
